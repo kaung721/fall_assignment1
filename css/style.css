@@ -1,0 +1,163 @@
+/* fonts */
+@font-face{
+    font-family: "PalisocItalic";
+    src: url("../fonts/Palisoc/PalisocItalic.ttf");
+    font-weight: auto;
+}
+@font-face{
+    font-family: "kremzin";
+    src: url("../fonts/kremzin-font/kremzin.ttf");
+    font-weight: auto;
+}
+@font-face{
+    font-family: "alanis";
+    src: url("../fonts/alanis-hand/AlanisHand.ttf");
+    font-weight: auto;
+}
+@font-face{
+    font-family: "outerspace";
+    src: url("../fonts/OuterSpace/OuterSpace.ttf");
+    font-weight: auto;
+}
+/* styling for the headings */
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+    font-family: kremzin, sans-serif;
+}
+/* styling for the first line of lyrics, body, and paragraph respectively */
+.firstLine{
+    font-size: 25px;
+    font-family: kremzin, sans-serif;
+    text-align: center;
+}
+body{
+    background-color: #AC487E;
+}
+p{
+    font-family: "PalisocItalic", sans-serif;
+    font-size: 25px;
+}
+/* inserted pic for the poster with the song title over it */
+.poster{
+    background-image: url("../img/poster.jpg");
+    background-size: cover;
+    width: auto;
+    height: 700px;
+    text-align: center;
+    align-items: center;
+    line-height: 50px;
+    margin: -25px -10px 0;
+}
+/* styling for the first div */
+.sec1{
+    display: grid;
+    grid-template-columns: 22em 5em 20em;
+    text-align: center;
+    font-size: 25px;
+    background-color: #b768b4;
+}
+.sec1 > p > span{
+    font-size: 15px;
+    font-family: "kremzin", sans-serif;
+}
+.sec1 > p {
+    margin-left: 100px;
+}
+/* styling for the star between the 2 paragraphs */
+.skewImg{
+    width: 80px;
+    height: auto;
+    margin-left: 40px;
+    margin-top: 55px;
+    transform: skew(-20deg);
+}
+.sec1 > p:nth-child(3){
+    margin-left: 1em;
+}
+/* styling for the second div */
+.sec2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.sec2 > p{
+    font-family: "kremzin", sans-serif;
+    font-size: 20px;
+}
+.sec2 > p > span{
+    font-size: 20px;
+    font-family: alanis, sans-serif;
+}
+.sec2 > img {
+    width: 65%;
+    height: auto;
+    margin-left: 20%;
+}
+.sec2 > p {
+    margin-left: 5%;
+}
+/* styling for the third div */
+.sec3{
+    display: grid;
+    grid-template-columns: 18em auto auto;
+    background-color: #6F8FAF;
+}
+.sec3 > img{
+    width: 100%;
+    height: auto;
+}
+.sec3 > p {
+    font-family: "outerspace", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.sec3 > p:nth-child(3) {
+    margin-left: 10%;
+}
+.sec3 > p > span{
+    font-family: kremzin, sans-serif;
+    font-size: 12px;
+}
+/* styling for final div */
+.sec4{
+    text-align: center;
+}
+.sec4 > p:first-child{
+    font-size: 15px;
+}
+.sec4 > p > span:nth-child(1) {
+    font-size: 25px;
+}
+.sec4 > p > span:nth-child(2) {
+    font-size: 35px;
+}
+.sec4 > p > span:nth-child(3) {
+    font-size: 45px;
+}
+.sec4 > p > span:nth-child(4) {
+    font-size: 35px;
+}
+.sec4 > p > span:nth-child(5) {
+    font-size: 25px;
+}
+.sec4 > p > span:nth-child(6) {
+    font-size: 15px;
+}
+.sec4 > p > span:nth-child(8) {
+    font-size: 35px;
+}
+.sec4 > p {
+    font-size: 35px;
+}
+.sec4 > img{
+    height: 70px;
+    width: auto;
+    margin-bottom: -25px;
+}
+/* centering iframe */
+iframe{
+    display: block;
+    margin: 0 auto;
+
+}
